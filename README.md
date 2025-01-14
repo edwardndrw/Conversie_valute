@@ -19,12 +19,8 @@ pip install streamlit requests
 
 ---
 
-### 2. **Structura aplicației**
-Salvați codul într-un fișier cu extensia `.py`, de exemplu, `convertor_valutar.py`.
 
----
-
-### 3. **Setările API**
+### 2. **Setările API**
 Aplicația folosește următorul API public pentru a obține ratele de schimb:
 - **Endpoint API**: `https://open.er-api.com/v6/latest/`
   
@@ -32,7 +28,7 @@ Asigurați-vă că aveți acces la internet pentru a comunica cu acest API.
 
 ---
 
-### 4. **Lansarea aplicației**
+### 3. **Lansarea aplicației**
 Rulați aplicația folosind comanda:
 ```bash
 streamlit run convertor_valutar.py
@@ -40,7 +36,7 @@ streamlit run convertor_valutar.py
 
 ---
 
-### 5. **Funcționalitățile aplicației**
+### 4. **Funcționalitățile aplicației**
 - **Input-uri personalizate**: Introduceți suma de convertit, selectați valuta de plecare și valuta țintă.
 - **Conversia valutară**: Click pe butonul "Convertește" pentru a realiza conversia.
 - **Inversează valutele**: Utilizați butonul "Inversează" pentru a schimba valuta de plecare cu cea țintă.
@@ -49,7 +45,7 @@ streamlit run convertor_valutar.py
 
 ---
 
-### 6. **Depanare**
+### 5. **Depanare**
 - **Eroare la conectare la API**: Verificați conexiunea la internet sau disponibilitatea API-ului.
 - **Module lipsă**: Asigurați-vă că toate modulele sunt instalate corect folosind `pip install`.
 
