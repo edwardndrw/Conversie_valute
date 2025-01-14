@@ -37,9 +37,9 @@ streamlit run convertor_valutar.py
 ---
 
 ### 4. **Funcționalitățile aplicației**
-- **Input-uri personalizate**: Introduceți suma de convertit, selectați valuta de plecare și valuta țintă.
+- **Input-uri personalizate**: Introduceți suma de convertit, selectați valuta de plecare și valuta dorita.
 - **Conversia valutară**: Click pe butonul "Convertește" pentru a realiza conversia.
-- **Inversează valutele**: Utilizați butonul "Inversează" pentru a schimba valuta de plecare cu cea țintă.
+- **Inversează valutele**: Utilizați butonul "Inversează" pentru a schimba valuta de plecare cu cea dorita.
 - **Afișarea ratei de schimb**: Opțiunea de a vizualiza un tabel cu ratele de schimb pentru valuta selectată.
 
 
